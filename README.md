@@ -15,6 +15,7 @@ kubectl apply -f monday-config-map.yaml -f monday-service.yaml -f monday-distrib
 
 Expected output:
 ```
+configmap/monday-config-map created
 deployment.apps/monday-service created
 service/monday-service created
 deployment.apps/monday-service-deployment-distributor created
